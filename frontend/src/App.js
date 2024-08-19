@@ -5,7 +5,7 @@ import Home from "./pages/home/Home";
 import PlaceOrder from "./pages/placeorder/PlaceOrder";
 import Cart from "./pages/cart/Cart";
 import Footer from "./components/footer/Footer";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import LoginPopUp from "./components/loginPopUp/LoginPopUp";
 import { StoreContext } from "./context/StoreContext";
 import { ToastContainer } from "react-toastify";
