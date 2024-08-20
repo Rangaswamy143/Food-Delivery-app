@@ -26,7 +26,7 @@ export const StoreContextProvider = (props) => {
       }
     };
     loadData();
-  }, [token]);
+  }, []);
 
   // add-to-cart functinality :-
   const addToCart = async (itemId) => {
