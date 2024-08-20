@@ -16,7 +16,7 @@ const MyOrders = () => {
     );
 
     setData(response.data.data);
-    console.log(response.data, "inchara");
+    console.log(response.data);
   };
   useEffect(() => {
     if (token) {
