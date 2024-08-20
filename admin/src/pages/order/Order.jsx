@@ -9,7 +9,7 @@ import { assets, url } from "../../assets/assets";
 const Order = ({ baseURL }) => {
   const [order, setOrder] = useState([]);
   const fetchOrders = async () => {
-    const response = await axios.get(baseURL + "/api/order/list");
+    const response = await axios.get(url + "/api/order/list");
     if (response.data.success) {
       setOrder(response.data.data);
       console.log(response.data.data);
