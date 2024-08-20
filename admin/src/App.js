@@ -10,7 +10,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  const baseURL = "https://food-delivery-app-5-l4hi.onrender.com";
+  const baseURL = "https://food-delivery-app-f410.onrender.com";
 
   return (
     <div>
