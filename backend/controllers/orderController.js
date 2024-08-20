@@ -2,7 +2,7 @@ import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js";
 import Stripe from "stripe";
 
-const frontend_url = "http://localhost:3000";
+const frontend_url = "https://food-delivery-app-frontend-tata.onrender.com";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 // placing user order for frontend
