@@ -16,6 +16,7 @@ export const StoreContextProvider = (props) => {
     // console.log(response);
     setFood_List(response.data.data);
   };
+  // console.log(food_list)
 
   useEffect(() => {
     const loadData = async () => {
@@ -74,7 +75,10 @@ export const StoreContextProvider = (props) => {
         const itemInfo = food_list.find((product) => product._id === item);
         totalAmount += itemInfo.price * cartItems[item];
       }
+      
     }
+    console.log(totalAmount)
+
     return totalAmount;
   };
   const getTotalQuantity = () => {
